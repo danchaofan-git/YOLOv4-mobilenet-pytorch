@@ -9,7 +9,7 @@
 6. [预测步骤 How2predict](#预测步骤)
 7. [训练步骤 How2train](#训练步骤)
 8. [各脚本功能](#各脚本功能)
-9. [应用在英伟达]Jetson AGX Xavier(#实际应用)
+9. [应用在英伟达Jetson AGX Xavier](#实际应用)
 10. [参考资料 Reference](#Reference)
 
 ## 性能情况
