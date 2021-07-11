@@ -9,7 +9,8 @@
 6. [预测步骤 How2predict](#预测步骤)
 7. [训练步骤 How2train](#训练步骤)
 8. [各脚本功能](#各脚本功能)
-9. [参考资料 Reference](#Reference)
+9. [应用在英伟达]Jetson AGX Xavier(#实际应用)
+10. [参考资料 Reference](#Reference)
 
 ## 性能情况
 | 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mAP 0.5:0.95 | mAP 0.5 |
@@ -87,6 +88,14 @@ dog
 ...
 ```
 8. 运行train.py即可开始训练。
+
+## 实际应用
+![边缘计算设备](https://user-images.githubusercontent.com/57827447/125183208-33876a00-e247-11eb-9be0-18b6c78f4930.jpg)
+本项目采用的边缘计算设备型号为Nvidia Jetson AGX Xavier如图左边，检测所用相机采用戴浦DP-UK100，如图5右边所示。
+Nvidia Jetson AGX Xavier的初始化可参考教程：
+1.环境配置情况，opencv、pytorch的安装教程可参考：
+ pytorch == 1.7
+
 
 ## 各脚本功能
 1. train.py---训练脚本
