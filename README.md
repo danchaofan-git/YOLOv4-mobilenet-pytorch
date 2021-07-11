@@ -1,4 +1,5 @@
 # YOLOv4-mobilenet-pytorch
+# 本项目代码参考作者bubbliiiing，原项目地址为：https://github.com/bubbliiiing/mobilenet-yolov4-lite-pytorch
 ## 目录
 1. [性能情况 Performance](#性能情况)
 2. [所需环境 Environment](#所需环境)
